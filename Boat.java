@@ -6,7 +6,7 @@ public class Boat extends Vehicle {
 
  @Override
     public String doStuff() {
-        System.out.println("Je suis " + getBrand() + " et je fais glou glou !");
-        return "Je suis " + getBrand() + " et je fais glou glou !";
+        System.out.println("Je suis " + this.getBrand() + " et je fais glou glou !");
+        return "Je suis " + this.getBrand() + " et je fais glou glou !";
     }
 }
