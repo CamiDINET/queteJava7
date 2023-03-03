@@ -7,7 +7,7 @@ public class Car extends Vehicle {
 
  @Override
     public String doStuff() {
-        System.out.println("Je suis " + getKilometers() + " et je fais vroom vroom !");
+        
         return "Je suis " + getBrand() + " et je fais vroom vroom !";
     }
 
